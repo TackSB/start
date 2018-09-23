@@ -1,0 +1,22 @@
+{
+    "name": "tack/tack",
+    "authors": [
+        {
+            "name": "Tack",
+            "email": "Tacksb34@gmail.com"
+        }
+    ],
+    "require": {
+        "gabordemooij/redbean": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "",
+            "service\\": "core/service",
+            "site\\controller\\": "site/controller",
+            "site\\model\\": "site/model",
+            "admin\\controller\\": "admin/controller",
+            "admin\\model\\": "admin/model"
+        }
+    }
+}
